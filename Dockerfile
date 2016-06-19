@@ -18,11 +18,11 @@
 # dependencies.
 
 FROM ubuntu:15.10
-MAINTAINER IBM Swift Engineering at IBM Cloud
+MAINTAINER IBM Swift Engineering at IBM Cloud (Modified by Sid)
 LABEL Description="Linux Ubuntu image with the latest Swift binaries."
 
 # Set environment variables for image
-ENV SWIFT_SNAPSHOT swift-DEVELOPMENT-SNAPSHOT-2016-05-03-a
+ENV SWIFT_SNAPSHOT swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a
 ENV UBUNTU_VERSION ubuntu15.10
 ENV UBUNTU_VERSION_NO_DOTS ubuntu1510
 ENV HOME /root
